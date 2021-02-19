@@ -23,8 +23,8 @@ public class Client {
     @Column(nullable = false)
     private int cin;
 
-    public Client(String idClt, String nomClt, String prenomClt, int tel, String email, String motP, String adresse, int cin) {
-        this.idClt = idClt;
+    public Client( String nomClt, String prenomClt, int tel, String email, String motP, String adresse, int cin) {
+
         this.nomClt = nomClt;
         this.prenomClt = prenomClt;
         this.tel = tel;
